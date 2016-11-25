@@ -73,39 +73,74 @@ table {
   }
 
   /* line 20, ../scss/_structure.scss */
-  .columns-6 .s-grid-1 {
+  .columns-6 .xs-grid-1 {
     position: relative;
     float: left;
     width: 16.66%;
     padding: 0 20px;
   }
+  /* line 26, ../scss/_structure.scss */
+  .columns-6 .xs-grid-2 {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 0 20px;
+  }
+  /* line 32, ../scss/_structure.scss */
+  .columns-6 .xs-grid-3 {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+  }
+  /* line 38, ../scss/_structure.scss */
+  .columns-6 .xs-grid-4 {
+    position: relative;
+    float: left;
+    width: 66.66%;
+    padding: 0 20px;
+  }
+  /* line 44, ../scss/_structure.scss */
+  .columns-6 .xs-grid-5 {
+    position: relative;
+    float: left;
+    width: 83.33%;
+    padding: 0 20px;
+  }
+  /* line 50, ../scss/_structure.scss */
+  .columns-6 .xs-grid-6 {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 @media all and (min-width: 768px) {
-  /* line 29, ../scss/_structure.scss */
+  /* line 59, ../scss/_structure.scss */
   #wrapper {
     max-width: 728px;
   }
 }
 @media all and (min-width: 992px) {
-  /* line 34, ../scss/_structure.scss */
+  /* line 64, ../scss/_structure.scss */
   #wrapper {
     max-width: 952px;
   }
 }
 @media all and (min-width: 1200px) {
-  /* line 39, ../scss/_structure.scss */
+  /* line 69, ../scss/_structure.scss */
   #wrapper {
     max-width: 1160px;
   }
 }
 @media all and (min-width: 1400px) {
-  /* line 44, ../scss/_structure.scss */
+  /* line 74, ../scss/_structure.scss */
   #wrapper {
     max-width: 1360px;
   }
 }
 @media all and (min-width: 1600px) {
-  /* line 49, ../scss/_structure.scss */
+  /* line 79, ../scss/_structure.scss */
   #wrapper {
     max-width: 1560px;
   }
