@@ -1,6 +1,13 @@
+*{
+	box-sizing: border-box;
+}
 #wrapper {
 	max-width: 100%;
 	margin: auto;
+	padding: 0 20px;
+}
+.clear {
+	clear: both;
 }
 /********************/
 /*	RESPONSIVE		*/
@@ -8,6 +15,14 @@
 @media all and (min-width: 640px) {
 	#wrapper {
 		max-width: 600px;
+	}
+	.columns-6 {
+		.s-grid-1 {
+			position: relative;
+			float: left;
+			width: 16.66%;
+			padding: 0 20px;
+		}
 	}
 }
 @media all and (min-width: 768px) {

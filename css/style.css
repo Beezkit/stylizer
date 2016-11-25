@@ -47,46 +47,65 @@ table {
 }
 
 /* line 1, ../scss/_structure.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../scss/_structure.scss */
 #wrapper {
   max-width: 100%;
   margin: auto;
+  padding: 0 20px;
+}
+
+/* line 9, ../scss/_structure.scss */
+.clear {
+  clear: both;
 }
 
 /********************/
 /*	RESPONSIVE		*/
 /********************/
 @media all and (min-width: 640px) {
-  /* line 9, ../scss/_structure.scss */
+  /* line 16, ../scss/_structure.scss */
   #wrapper {
     max-width: 600px;
   }
+
+  /* line 20, ../scss/_structure.scss */
+  .columns-6 .s-grid-1 {
+    position: relative;
+    float: left;
+    width: 16.66%;
+    padding: 0 20px;
+  }
 }
 @media all and (min-width: 768px) {
-  /* line 14, ../scss/_structure.scss */
+  /* line 29, ../scss/_structure.scss */
   #wrapper {
     max-width: 728px;
   }
 }
 @media all and (min-width: 992px) {
-  /* line 19, ../scss/_structure.scss */
+  /* line 34, ../scss/_structure.scss */
   #wrapper {
     max-width: 952px;
   }
 }
 @media all and (min-width: 1200px) {
-  /* line 24, ../scss/_structure.scss */
+  /* line 39, ../scss/_structure.scss */
   #wrapper {
     max-width: 1160px;
   }
 }
 @media all and (min-width: 1400px) {
-  /* line 29, ../scss/_structure.scss */
+  /* line 44, ../scss/_structure.scss */
   #wrapper {
     max-width: 1360px;
   }
 }
 @media all and (min-width: 1600px) {
-  /* line 34, ../scss/_structure.scss */
+  /* line 49, ../scss/_structure.scss */
   #wrapper {
     max-width: 1560px;
   }
