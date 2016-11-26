@@ -9,7 +9,7 @@
 .clear {
 	clear: both;
 }
-.xs-grid-1, .xs-grid-2, .xs-grid-3, .xs-grid-4, .xs-grid-5, .xs-grid-6,
+.xs-grid-1, .xs-grid-2, .xs-grid-3, .xs-grid-4, .xs-grid-5, .xs-grid-6, .xs-grid-7, .xs-grid-8, .xs-grid-8, .xs-grid-9, .xs-grid-10, .xs-grid-11, .xs-grid-12,
 .s-grid-1, .s-grid-2, .s-grid-3, .s-grid-4, .s-grid-5, .s-grid-6,
 .m-grid-1, .m-grid-2, .m-grid-3, .m-grid-4, .m-grid-5, .m-grid-6,
 .l-grid-1, .l-grid-2, .l-grid-3, .l-grid-4, .l-grid-5, .l-grid-6,
@@ -51,6 +51,56 @@
 			width: 100%;
 		}
 	}
+	.columns-12 {
+		.xs-grid-1 {
+			float: left;
+			width: 8.33%;
+		}
+		.xs-grid-2 {
+			float: left;
+			width: 16.66%;
+		}
+		.xs-grid-3 {
+			float: left;
+			width: 25%;
+		}
+		.xs-grid-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.xs-grid-5 {
+			float: left;
+			width: 41.66%;
+		}
+		.xs-grid-6 {
+			float: left;
+			width: 50%;
+		}
+		.xs-grid-7 {
+			float: left;
+			width: 58.33%;
+		}
+		.xs-grid-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.xs-grid-9 {
+			float: left;
+			width: 75%;
+		}
+		.xs-grid-10 {
+			float: left;
+			width: 83.33%;
+		}
+		.xs-grid-11 {
+			float: left;
+			width: 91.66%;
+		}
+		.xs-grid-12 {
+			float: left;
+			width: 100%;
+		}
+	}
 }
 @media all and (min-width: 768px) {
 	#wrapper {
@@ -78,6 +128,56 @@
 			width: 83.33%;
 		}
 		.s-grid-6 {
+			float: left;
+			width: 100%;
+		}
+	}
+	.columns-12 {
+		.s-grid-1 {
+			float: left;
+			width: 8.33%;
+		}
+		.s-grid-2 {
+			float: left;
+			width: 16.66%;
+		}
+		.s-grid-3 {
+			float: left;
+			width: 25%;
+		}
+		.s-grid-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.s-grid-5 {
+			float: left;
+			width: 41.66%;
+		}
+		.s-grid-6 {
+			float: left;
+			width: 50%;
+		}
+		.s-grid-7 {
+			float: left;
+			width: 58.33%;
+		}
+		.s-grid-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.s-grid-9 {
+			float: left;
+			width: 75%;
+		}
+		.s-grid-10 {
+			float: left;
+			width: 83.33%;
+		}
+		.s-grid-11 {
+			float: left;
+			width: 91.66%;
+		}
+		.s-grid-12 {
 			float: left;
 			width: 100%;
 		}
@@ -113,6 +213,56 @@
 			width: 100%;
 		}
 	}
+	.columns-12 {
+		.m-grid-1 {
+			float: left;
+			width: 8.33%;
+		}
+		.m-grid-2 {
+			float: left;
+			width: 16.66%;
+		}
+		.m-grid-3 {
+			float: left;
+			width: 25%;
+		}
+		.m-grid-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.m-grid-5 {
+			float: left;
+			width: 41.66%;
+		}
+		.m-grid-6 {
+			float: left;
+			width: 50%;
+		}
+		.m-grid-7 {
+			float: left;
+			width: 58.33%;
+		}
+		.m-grid-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.m-grid-9 {
+			float: left;
+			width: 75%;
+		}
+		.m-grid-10 {
+			float: left;
+			width: 83.33%;
+		}
+		.m-grid-11 {
+			float: left;
+			width: 91.66%;
+		}
+		.m-grid-12 {
+			float: left;
+			width: 100%;
+		}
+	}
 }
 @media all and (min-width: 1200px) {
 	#wrapper {
@@ -140,6 +290,56 @@
 			width: 83.33%;
 		}
 		.l-grid-6 {
+			float: left;
+			width: 100%;
+		}
+	}
+	.columns-12 {
+		.l-grid-1 {
+			float: left;
+			width: 8.33%;
+		}
+		.l-grid-2 {
+			float: left;
+			width: 16.66%;
+		}
+		.l-grid-3 {
+			float: left;
+			width: 25%;
+		}
+		.l-grid-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.l-grid-5 {
+			float: left;
+			width: 41.66%;
+		}
+		.l-grid-6 {
+			float: left;
+			width: 50%;
+		}
+		.l-grid-7 {
+			float: left;
+			width: 58.33%;
+		}
+		.l-grid-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.l-grid-9 {
+			float: left;
+			width: 75%;
+		}
+		.l-grid-10 {
+			float: left;
+			width: 83.33%;
+		}
+		.l-grid-11 {
+			float: left;
+			width: 91.66%;
+		}
+		.l-grid-12 {
 			float: left;
 			width: 100%;
 		}
@@ -175,6 +375,56 @@
 			width: 100%;
 		}
 	}
+	.columns-12 {
+		.xl-grid-1 {
+			float: left;
+			width: 8.33%;
+		}
+		.xl-grid-2 {
+			float: left;
+			width: 16.66%;
+		}
+		.xl-grid-3 {
+			float: left;
+			width: 25%;
+		}
+		.xl-grid-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.xl-grid-5 {
+			float: left;
+			width: 41.66%;
+		}
+		.xl-grid-6 {
+			float: left;
+			width: 50%;
+		}
+		.xl-grid-7 {
+			float: left;
+			width: 58.33%;
+		}
+		.xl-grid-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.xl-grid-9 {
+			float: left;
+			width: 75%;
+		}
+		.xl-grid-10 {
+			float: left;
+			width: 83.33%;
+		}
+		.xl-grid-11 {
+			float: left;
+			width: 91.66%;
+		}
+		.xl-grid-12 {
+			float: left;
+			width: 100%;
+		}
+	}
 }
 @media all and (min-width: 1600px) {
 	#wrapper {
@@ -202,6 +452,56 @@
 			width: 83.33%;
 		}
 		.xxl-grid-6 {
+			float: left;
+			width: 100%;
+		}
+	}
+	.columns-12 {
+		.xll-grid-1 {
+			float: left;
+			width: 8.33%;
+		}
+		.xll-grid-2 {
+			float: left;
+			width: 16.66%;
+		}
+		.xll-grid-3 {
+			float: left;
+			width: 25%;
+		}
+		.xll-grid-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.xll-grid-5 {
+			float: left;
+			width: 41.66%;
+		}
+		.xll-grid-6 {
+			float: left;
+			width: 50%;
+		}
+		.xll-grid-7 {
+			float: left;
+			width: 58.33%;
+		}
+		.xll-grid-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.xll-grid-9 {
+			float: left;
+			width: 75%;
+		}
+		.xll-grid-10 {
+			float: left;
+			width: 83.33%;
+		}
+		.xll-grid-11 {
+			float: left;
+			width: 91.66%;
+		}
+		.xll-grid-12 {
 			float: left;
 			width: 100%;
 		}
