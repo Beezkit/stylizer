@@ -9,6 +9,15 @@
 .clear {
 	clear: both;
 }
+.xs-grid-1, .xs-grid-2, .xs-grid-3, .xs-grid-4, .xs-grid-5, .xs-grid-6,
+.s-grid-1, .s-grid-2, .s-grid-3, .s-grid-4, .s-grid-5, .s-grid-6,
+.m-grid-1, .m-grid-2, .m-grid-3, .m-grid-4, .m-grid-5, .m-grid-6,
+.l-grid-1, .l-grid-2, .l-grid-3, .l-grid-4, .l-grid-5, .l-grid-6,
+.xl-grid-1, .xl-grid-2, .xl-grid-3, .xl-grid-4, .xl-grid-5, .xl-grid-6,
+.xxl-grid-1, .xxl-grid-2, .xxl-grid-3, .xxl-grid-4, .xxl-grid-5, .xxl-grid-6 {
+	position: relative;
+	padding: 0 20px;
+}
 /********************/
 /*	RESPONSIVE		*/
 /********************/
@@ -18,40 +27,28 @@
 	}
 	.columns-6 {
 		.xs-grid-1 {
-			position: relative;
 			float: left;
 			width: 16.66%;
-			padding: 0 20px;
 		}
 		.xs-grid-2 {
-			position: relative;
 			float: left;
 			width: 33.33%;
-			padding: 0 20px;
 		}
 		.xs-grid-3 {
-			position: relative;
 			float: left;
 			width: 50%;
-			padding: 0 20px;
 		}
 		.xs-grid-4 {
-			position: relative;
 			float: left;
 			width: 66.66%;
-			padding: 0 20px;
 		}
 		.xs-grid-5 {
-			position: relative;
 			float: left;
 			width: 83.33%;
-			padding: 0 20px;
 		}
 		.xs-grid-6 {
-			position: relative;
 			float: left;
 			width: 100%;
-			padding: 0 20px;
 		}
 	}
 }
@@ -59,24 +56,154 @@
 	#wrapper {
 		max-width: 728px;
 	}
+	.columns-6 {
+		.s-grid-1 {
+			float: left;
+			width: 16.66%;
+		}
+		.s-grid-2 {
+			float: left;
+			width: 33.33%;
+		}
+		.s-grid-3 {
+			float: left;
+			width: 50%;
+		}
+		.s-grid-4 {
+			float: left;
+			width: 66.66%;
+		}
+		.s-grid-5 {
+			float: left;
+			width: 83.33%;
+		}
+		.s-grid-6 {
+			float: left;
+			width: 100%;
+		}
+	}
 }
 @media all and (min-width: 992px) {
 	#wrapper {
 		max-width: 952px;
+	}
+	.columns-6 {
+		.m-grid-1 {
+			float: left;
+			width: 16.66%;
+		}
+		.m-grid-2 {
+			float: left;
+			width: 33.33%;
+		}
+		.m-grid-3 {
+			float: left;
+			width: 50%;
+		}
+		.m-grid-4 {
+			float: left;
+			width: 66.66%;
+		}
+		.m-grid-5 {
+			float: left;
+			width: 83.33%;
+		}
+		.m-grid-6 {
+			float: left;
+			width: 100%;
+		}
 	}
 }
 @media all and (min-width: 1200px) {
 	#wrapper {
 		max-width: 1160px;
 	}
+	.columns-6 {
+		.l-grid-1 {
+			float: left;
+			width: 16.66%;
+		}
+		.l-grid-2 {
+			float: left;
+			width: 33.33%;
+		}
+		.l-grid-3 {
+			float: left;
+			width: 50%;
+		}
+		.l-grid-4 {
+			float: left;
+			width: 66.66%;
+		}
+		.l-grid-5 {
+			float: left;
+			width: 83.33%;
+		}
+		.l-grid-6 {
+			float: left;
+			width: 100%;
+		}
+	}
 }
 @media all and (min-width: 1400px) {
 	#wrapper {
 		max-width: 1360px;
 	}
+	.columns-6 {
+		.xl-grid-1 {
+			float: left;
+			width: 16.66%;
+		}
+		.xl-grid-2 {
+			float: left;
+			width: 33.33%;
+		}
+		.xl-grid-3 {
+			float: left;
+			width: 50%;
+		}
+		.xl-grid-4 {
+			float: left;
+			width: 66.66%;
+		}
+		.xl-grid-5 {
+			float: left;
+			width: 83.33%;
+		}
+		.xl-grid-6 {
+			float: left;
+			width: 100%;
+		}
+	}
 }
 @media all and (min-width: 1600px) {
 	#wrapper {
 		max-width: 1560px;
+	}
+	.columns-6 {
+		.xxl-grid-1 {
+			float: left;
+			width: 16.66%;
+		}
+		.xxl-grid-2 {
+			float: left;
+			width: 33.33%;
+		}
+		.xxl-grid-3 {
+			float: left;
+			width: 50%;
+		}
+		.xxl-grid-4 {
+			float: left;
+			width: 66.66%;
+		}
+		.xxl-grid-5 {
+			float: left;
+			width: 83.33%;
+		}
+		.xxl-grid-6 {
+			float: left;
+			width: 100%;
+		}
 	}
 }

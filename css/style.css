@@ -63,85 +63,239 @@ table {
   clear: both;
 }
 
+/* line 12, ../scss/_structure.scss */
+.xs-grid-1, .xs-grid-2, .xs-grid-3, .xs-grid-4, .xs-grid-5, .xs-grid-6,
+.s-grid-1, .s-grid-2, .s-grid-3, .s-grid-4, .s-grid-5, .s-grid-6,
+.m-grid-1, .m-grid-2, .m-grid-3, .m-grid-4, .m-grid-5, .m-grid-6,
+.l-grid-1, .l-grid-2, .l-grid-3, .l-grid-4, .l-grid-5, .l-grid-6,
+.xl-grid-1, .xl-grid-2, .xl-grid-3, .xl-grid-4, .xl-grid-5, .xl-grid-6,
+.xxl-grid-1, .xxl-grid-2, .xxl-grid-3, .xxl-grid-4, .xxl-grid-5, .xxl-grid-6 {
+  position: relative;
+  padding: 0 20px;
+}
+
 /********************/
 /*	RESPONSIVE		*/
 /********************/
 @media all and (min-width: 640px) {
-  /* line 16, ../scss/_structure.scss */
+  /* line 25, ../scss/_structure.scss */
   #wrapper {
     max-width: 600px;
   }
 
-  /* line 20, ../scss/_structure.scss */
+  /* line 29, ../scss/_structure.scss */
   .columns-6 .xs-grid-1 {
-    position: relative;
     float: left;
     width: 16.66%;
-    padding: 0 20px;
   }
-  /* line 26, ../scss/_structure.scss */
+  /* line 33, ../scss/_structure.scss */
   .columns-6 .xs-grid-2 {
-    position: relative;
     float: left;
     width: 33.33%;
-    padding: 0 20px;
   }
-  /* line 32, ../scss/_structure.scss */
+  /* line 37, ../scss/_structure.scss */
   .columns-6 .xs-grid-3 {
-    position: relative;
     float: left;
     width: 50%;
-    padding: 0 20px;
   }
-  /* line 38, ../scss/_structure.scss */
+  /* line 41, ../scss/_structure.scss */
   .columns-6 .xs-grid-4 {
-    position: relative;
     float: left;
     width: 66.66%;
-    padding: 0 20px;
   }
-  /* line 44, ../scss/_structure.scss */
+  /* line 45, ../scss/_structure.scss */
   .columns-6 .xs-grid-5 {
-    position: relative;
     float: left;
     width: 83.33%;
-    padding: 0 20px;
   }
-  /* line 50, ../scss/_structure.scss */
+  /* line 49, ../scss/_structure.scss */
   .columns-6 .xs-grid-6 {
-    position: relative;
     float: left;
     width: 100%;
-    padding: 0 20px;
   }
 }
 @media all and (min-width: 768px) {
-  /* line 59, ../scss/_structure.scss */
+  /* line 56, ../scss/_structure.scss */
   #wrapper {
     max-width: 728px;
   }
+
+  /* line 60, ../scss/_structure.scss */
+  .columns-6 .s-grid-1 {
+    float: left;
+    width: 16.66%;
+  }
+  /* line 64, ../scss/_structure.scss */
+  .columns-6 .s-grid-2 {
+    float: left;
+    width: 33.33%;
+  }
+  /* line 68, ../scss/_structure.scss */
+  .columns-6 .s-grid-3 {
+    float: left;
+    width: 50%;
+  }
+  /* line 72, ../scss/_structure.scss */
+  .columns-6 .s-grid-4 {
+    float: left;
+    width: 66.66%;
+  }
+  /* line 76, ../scss/_structure.scss */
+  .columns-6 .s-grid-5 {
+    float: left;
+    width: 83.33%;
+  }
+  /* line 80, ../scss/_structure.scss */
+  .columns-6 .s-grid-6 {
+    float: left;
+    width: 100%;
+  }
 }
 @media all and (min-width: 992px) {
-  /* line 64, ../scss/_structure.scss */
+  /* line 87, ../scss/_structure.scss */
   #wrapper {
     max-width: 952px;
   }
+
+  /* line 91, ../scss/_structure.scss */
+  .columns-6 .m-grid-1 {
+    float: left;
+    width: 16.66%;
+  }
+  /* line 95, ../scss/_structure.scss */
+  .columns-6 .m-grid-2 {
+    float: left;
+    width: 33.33%;
+  }
+  /* line 99, ../scss/_structure.scss */
+  .columns-6 .m-grid-3 {
+    float: left;
+    width: 50%;
+  }
+  /* line 103, ../scss/_structure.scss */
+  .columns-6 .m-grid-4 {
+    float: left;
+    width: 66.66%;
+  }
+  /* line 107, ../scss/_structure.scss */
+  .columns-6 .m-grid-5 {
+    float: left;
+    width: 83.33%;
+  }
+  /* line 111, ../scss/_structure.scss */
+  .columns-6 .m-grid-6 {
+    float: left;
+    width: 100%;
+  }
 }
 @media all and (min-width: 1200px) {
-  /* line 69, ../scss/_structure.scss */
+  /* line 118, ../scss/_structure.scss */
   #wrapper {
     max-width: 1160px;
   }
+
+  /* line 122, ../scss/_structure.scss */
+  .columns-6 .l-grid-1 {
+    float: left;
+    width: 16.66%;
+  }
+  /* line 126, ../scss/_structure.scss */
+  .columns-6 .l-grid-2 {
+    float: left;
+    width: 33.33%;
+  }
+  /* line 130, ../scss/_structure.scss */
+  .columns-6 .l-grid-3 {
+    float: left;
+    width: 50%;
+  }
+  /* line 134, ../scss/_structure.scss */
+  .columns-6 .l-grid-4 {
+    float: left;
+    width: 66.66%;
+  }
+  /* line 138, ../scss/_structure.scss */
+  .columns-6 .l-grid-5 {
+    float: left;
+    width: 83.33%;
+  }
+  /* line 142, ../scss/_structure.scss */
+  .columns-6 .l-grid-6 {
+    float: left;
+    width: 100%;
+  }
 }
 @media all and (min-width: 1400px) {
-  /* line 74, ../scss/_structure.scss */
+  /* line 149, ../scss/_structure.scss */
   #wrapper {
     max-width: 1360px;
   }
+
+  /* line 153, ../scss/_structure.scss */
+  .columns-6 .xl-grid-1 {
+    float: left;
+    width: 16.66%;
+  }
+  /* line 157, ../scss/_structure.scss */
+  .columns-6 .xl-grid-2 {
+    float: left;
+    width: 33.33%;
+  }
+  /* line 161, ../scss/_structure.scss */
+  .columns-6 .xl-grid-3 {
+    float: left;
+    width: 50%;
+  }
+  /* line 165, ../scss/_structure.scss */
+  .columns-6 .xl-grid-4 {
+    float: left;
+    width: 66.66%;
+  }
+  /* line 169, ../scss/_structure.scss */
+  .columns-6 .xl-grid-5 {
+    float: left;
+    width: 83.33%;
+  }
+  /* line 173, ../scss/_structure.scss */
+  .columns-6 .xl-grid-6 {
+    float: left;
+    width: 100%;
+  }
 }
 @media all and (min-width: 1600px) {
-  /* line 79, ../scss/_structure.scss */
+  /* line 180, ../scss/_structure.scss */
   #wrapper {
     max-width: 1560px;
+  }
+
+  /* line 184, ../scss/_structure.scss */
+  .columns-6 .xxl-grid-1 {
+    float: left;
+    width: 16.66%;
+  }
+  /* line 188, ../scss/_structure.scss */
+  .columns-6 .xxl-grid-2 {
+    float: left;
+    width: 33.33%;
+  }
+  /* line 192, ../scss/_structure.scss */
+  .columns-6 .xxl-grid-3 {
+    float: left;
+    width: 50%;
+  }
+  /* line 196, ../scss/_structure.scss */
+  .columns-6 .xxl-grid-4 {
+    float: left;
+    width: 66.66%;
+  }
+  /* line 200, ../scss/_structure.scss */
+  .columns-6 .xxl-grid-5 {
+    float: left;
+    width: 83.33%;
+  }
+  /* line 204, ../scss/_structure.scss */
+  .columns-6 .xxl-grid-6 {
+    float: left;
+    width: 100%;
   }
 }
