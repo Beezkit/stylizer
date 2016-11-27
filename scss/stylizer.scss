@@ -1,0 +1,14 @@
+@import '_couleurs';
+@import '_mixins';
+@import '_reset';
+@import '_structure';
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
