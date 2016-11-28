@@ -9,6 +9,9 @@
 .clear {
 	clear: both;
 }
+.raw {
+	margin: 0 -20px;
+}
 .xs-grid-1, .xs-grid-2, .xs-grid-3, .xs-grid-4, .xs-grid-5, .xs-grid-6, .xs-grid-7, .xs-grid-8, .xs-grid-9, .xs-grid-10, .xs-grid-11, .xs-grid-12,
 .s-grid-1, .s-grid-2, .s-grid-3, .s-grid-4, .s-grid-5, .s-grid-6, .s-grid-7, .s-grid-8, .s-grid-9, .s-grid-10, .s-grid-11, .s-grid-12,
 .m-grid-1, .m-grid-2, .m-grid-3, .m-grid-4, .m-grid-5, .m-grid-6, .m-grid-7, .m-grid-8, .m-grid-9, .m-grid-10, .m-grid-11, .m-grid-12,
@@ -17,6 +20,9 @@
 .xxl-grid-1, .xxl-grid-2, .xxl-grid-3, .xxl-grid-4, .xxl-grid-5, .xxl-grid-6, .xxl-grid-7, .xxl-grid-8, .xxl-grid-9, .xxl-grid-10, .xxl-grid-11, .xxl-grid-12 {
 	position: relative;
 	padding: 0 20px;
+}
+.xs-hide, .s-hide, .m-hide, .l-hide, .xl-hide, .xxl-hide {
+	display: none;
 }
 /********************/
 /*	RESPONSIVE		*/
@@ -101,6 +107,9 @@
 			width: 100%;
 		}
 	}
+	.xs-hide {
+		display: block;
+	}
 }
 @media all and (min-width: 768px) {
 	#wrapper {
@@ -181,6 +190,9 @@
 			float: left;
 			width: 100%;
 		}
+	}
+	.s-hide {
+		display: block;
 	}
 }
 @media all and (min-width: 992px) {
@@ -263,6 +275,9 @@
 			width: 100%;
 		}
 	}
+	.m-hide {
+		display: block;
+	}
 }
 @media all and (min-width: 1200px) {
 	#wrapper {
@@ -343,6 +358,9 @@
 			float: left;
 			width: 100%;
 		}
+	}
+	.l-hide {
+		display: block;
 	}
 }
 @media all and (min-width: 1400px) {
@@ -425,6 +443,9 @@
 			width: 100%;
 		}
 	}
+	.xl-hide {
+		display: block;
+	}
 }
 @media all and (min-width: 1600px) {
 	#wrapper {
@@ -505,5 +526,8 @@
 			float: left;
 			width: 100%;
 		}
+	}
+	.xxl-hide {
+		display: block;
 	}
 }
