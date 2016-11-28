@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "openSans";
+  src: url("../fonts/opensans-regular.woff2") format("woff2"), url("../fonts/opensans-regular.woff") format("woff"), url("../fonts/opensans-regular.ttf") format("truetype");
+}
 /* line 6, ../scss/_reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -52,23 +56,28 @@ table {
 }
 
 /* line 4, ../scss/_structure.scss */
+body {
+  font-family: "openSans";
+}
+
+/* line 7, ../scss/_structure.scss */
 #wrapper {
   max-width: 100%;
   margin: auto;
   padding: 0 20px;
 }
 
-/* line 9, ../scss/_structure.scss */
+/* line 12, ../scss/_structure.scss */
 .clear {
   clear: both;
 }
 
-/* line 12, ../scss/_structure.scss */
+/* line 15, ../scss/_structure.scss */
 .raw {
   margin: 0 -20px;
 }
 
-/* line 15, ../scss/_structure.scss */
+/* line 18, ../scss/_structure.scss */
 .xs-grid-1, .xs-grid-2, .xs-grid-3, .xs-grid-4, .xs-grid-5, .xs-grid-6, .xs-grid-7, .xs-grid-8, .xs-grid-9, .xs-grid-10, .xs-grid-11, .xs-grid-12,
 .s-grid-1, .s-grid-2, .s-grid-3, .s-grid-4, .s-grid-5, .s-grid-6, .s-grid-7, .s-grid-8, .s-grid-9, .s-grid-10, .s-grid-11, .s-grid-12,
 .m-grid-1, .m-grid-2, .m-grid-3, .m-grid-4, .m-grid-5, .m-grid-6, .m-grid-7, .m-grid-8, .m-grid-9, .m-grid-10, .m-grid-11, .m-grid-12,
@@ -79,7 +88,7 @@ table {
   padding: 0 20px;
 }
 
-/* line 24, ../scss/_structure.scss */
+/* line 27, ../scss/_structure.scss */
 .xs-hide, .s-hide, .m-hide, .l-hide, .xl-hide, .xxl-hide {
   display: none;
 }
@@ -88,634 +97,634 @@ table {
 /*	RESPONSIVE		*/
 /********************/
 @media all and (min-width: 640px) {
-  /* line 31, ../scss/_structure.scss */
+  /* line 34, ../scss/_structure.scss */
   #wrapper {
     max-width: 600px;
   }
 
-  /* line 35, ../scss/_structure.scss */
+  /* line 38, ../scss/_structure.scss */
   .columns-6 .xs-grid-1 {
     float: left;
     width: 16.66%;
   }
-  /* line 39, ../scss/_structure.scss */
+  /* line 42, ../scss/_structure.scss */
   .columns-6 .xs-grid-2 {
     float: left;
     width: 33.33%;
   }
-  /* line 43, ../scss/_structure.scss */
+  /* line 46, ../scss/_structure.scss */
   .columns-6 .xs-grid-3 {
     float: left;
     width: 50%;
   }
-  /* line 47, ../scss/_structure.scss */
+  /* line 50, ../scss/_structure.scss */
   .columns-6 .xs-grid-4 {
     float: left;
     width: 66.66%;
   }
-  /* line 51, ../scss/_structure.scss */
+  /* line 54, ../scss/_structure.scss */
   .columns-6 .xs-grid-5 {
     float: left;
     width: 83.33%;
   }
-  /* line 55, ../scss/_structure.scss */
+  /* line 58, ../scss/_structure.scss */
   .columns-6 .xs-grid-6 {
     float: left;
     width: 100%;
   }
 
-  /* line 61, ../scss/_structure.scss */
+  /* line 64, ../scss/_structure.scss */
   .columns-12 .xs-grid-1 {
     float: left;
     width: 8.33%;
   }
-  /* line 65, ../scss/_structure.scss */
+  /* line 68, ../scss/_structure.scss */
   .columns-12 .xs-grid-2 {
     float: left;
     width: 16.66%;
   }
-  /* line 69, ../scss/_structure.scss */
+  /* line 72, ../scss/_structure.scss */
   .columns-12 .xs-grid-3 {
     float: left;
     width: 25%;
   }
-  /* line 73, ../scss/_structure.scss */
+  /* line 76, ../scss/_structure.scss */
   .columns-12 .xs-grid-4 {
     float: left;
     width: 33.33%;
   }
-  /* line 77, ../scss/_structure.scss */
+  /* line 80, ../scss/_structure.scss */
   .columns-12 .xs-grid-5 {
     float: left;
     width: 41.66%;
   }
-  /* line 81, ../scss/_structure.scss */
+  /* line 84, ../scss/_structure.scss */
   .columns-12 .xs-grid-6 {
     float: left;
     width: 50%;
   }
-  /* line 85, ../scss/_structure.scss */
+  /* line 88, ../scss/_structure.scss */
   .columns-12 .xs-grid-7 {
     float: left;
     width: 58.33%;
   }
-  /* line 89, ../scss/_structure.scss */
+  /* line 92, ../scss/_structure.scss */
   .columns-12 .xs-grid-8 {
     float: left;
     width: 66.66%;
   }
-  /* line 93, ../scss/_structure.scss */
+  /* line 96, ../scss/_structure.scss */
   .columns-12 .xs-grid-9 {
     float: left;
     width: 75%;
   }
-  /* line 97, ../scss/_structure.scss */
+  /* line 100, ../scss/_structure.scss */
   .columns-12 .xs-grid-10 {
     float: left;
     width: 83.33%;
   }
-  /* line 101, ../scss/_structure.scss */
+  /* line 104, ../scss/_structure.scss */
   .columns-12 .xs-grid-11 {
     float: left;
     width: 91.66%;
   }
-  /* line 105, ../scss/_structure.scss */
+  /* line 108, ../scss/_structure.scss */
   .columns-12 .xs-grid-12 {
     float: left;
     width: 100%;
   }
 
-  /* line 110, ../scss/_structure.scss */
+  /* line 113, ../scss/_structure.scss */
   .xs-hide {
     display: block;
   }
 }
 @media all and (min-width: 768px) {
-  /* line 115, ../scss/_structure.scss */
+  /* line 118, ../scss/_structure.scss */
   #wrapper {
     max-width: 728px;
   }
 
-  /* line 119, ../scss/_structure.scss */
+  /* line 122, ../scss/_structure.scss */
   .columns-6 .s-grid-1 {
     float: left;
     width: 16.66%;
   }
-  /* line 123, ../scss/_structure.scss */
+  /* line 126, ../scss/_structure.scss */
   .columns-6 .s-grid-2 {
     float: left;
     width: 33.33%;
   }
-  /* line 127, ../scss/_structure.scss */
+  /* line 130, ../scss/_structure.scss */
   .columns-6 .s-grid-3 {
     float: left;
     width: 50%;
   }
-  /* line 131, ../scss/_structure.scss */
+  /* line 134, ../scss/_structure.scss */
   .columns-6 .s-grid-4 {
     float: left;
     width: 66.66%;
   }
-  /* line 135, ../scss/_structure.scss */
+  /* line 138, ../scss/_structure.scss */
   .columns-6 .s-grid-5 {
     float: left;
     width: 83.33%;
   }
-  /* line 139, ../scss/_structure.scss */
+  /* line 142, ../scss/_structure.scss */
   .columns-6 .s-grid-6 {
     float: left;
     width: 100%;
   }
 
-  /* line 145, ../scss/_structure.scss */
+  /* line 148, ../scss/_structure.scss */
   .columns-12 .s-grid-1 {
     float: left;
     width: 8.33%;
   }
-  /* line 149, ../scss/_structure.scss */
+  /* line 152, ../scss/_structure.scss */
   .columns-12 .s-grid-2 {
     float: left;
     width: 16.66%;
   }
-  /* line 153, ../scss/_structure.scss */
+  /* line 156, ../scss/_structure.scss */
   .columns-12 .s-grid-3 {
     float: left;
     width: 25%;
   }
-  /* line 157, ../scss/_structure.scss */
+  /* line 160, ../scss/_structure.scss */
   .columns-12 .s-grid-4 {
     float: left;
     width: 33.33%;
   }
-  /* line 161, ../scss/_structure.scss */
+  /* line 164, ../scss/_structure.scss */
   .columns-12 .s-grid-5 {
     float: left;
     width: 41.66%;
   }
-  /* line 165, ../scss/_structure.scss */
+  /* line 168, ../scss/_structure.scss */
   .columns-12 .s-grid-6 {
     float: left;
     width: 50%;
   }
-  /* line 169, ../scss/_structure.scss */
+  /* line 172, ../scss/_structure.scss */
   .columns-12 .s-grid-7 {
     float: left;
     width: 58.33%;
   }
-  /* line 173, ../scss/_structure.scss */
+  /* line 176, ../scss/_structure.scss */
   .columns-12 .s-grid-8 {
     float: left;
     width: 66.66%;
   }
-  /* line 177, ../scss/_structure.scss */
+  /* line 180, ../scss/_structure.scss */
   .columns-12 .s-grid-9 {
     float: left;
     width: 75%;
   }
-  /* line 181, ../scss/_structure.scss */
+  /* line 184, ../scss/_structure.scss */
   .columns-12 .s-grid-10 {
     float: left;
     width: 83.33%;
   }
-  /* line 185, ../scss/_structure.scss */
+  /* line 188, ../scss/_structure.scss */
   .columns-12 .s-grid-11 {
     float: left;
     width: 91.66%;
   }
-  /* line 189, ../scss/_structure.scss */
+  /* line 192, ../scss/_structure.scss */
   .columns-12 .s-grid-12 {
     float: left;
     width: 100%;
   }
 
-  /* line 194, ../scss/_structure.scss */
+  /* line 197, ../scss/_structure.scss */
   .s-hide {
     display: block;
   }
 }
 @media all and (min-width: 992px) {
-  /* line 199, ../scss/_structure.scss */
+  /* line 202, ../scss/_structure.scss */
   #wrapper {
     max-width: 952px;
   }
 
-  /* line 203, ../scss/_structure.scss */
+  /* line 206, ../scss/_structure.scss */
   .columns-6 .m-grid-1 {
     float: left;
     width: 16.66%;
   }
-  /* line 207, ../scss/_structure.scss */
+  /* line 210, ../scss/_structure.scss */
   .columns-6 .m-grid-2 {
     float: left;
     width: 33.33%;
   }
-  /* line 211, ../scss/_structure.scss */
+  /* line 214, ../scss/_structure.scss */
   .columns-6 .m-grid-3 {
     float: left;
     width: 50%;
   }
-  /* line 215, ../scss/_structure.scss */
+  /* line 218, ../scss/_structure.scss */
   .columns-6 .m-grid-4 {
     float: left;
     width: 66.66%;
   }
-  /* line 219, ../scss/_structure.scss */
+  /* line 222, ../scss/_structure.scss */
   .columns-6 .m-grid-5 {
     float: left;
     width: 83.33%;
   }
-  /* line 223, ../scss/_structure.scss */
+  /* line 226, ../scss/_structure.scss */
   .columns-6 .m-grid-6 {
     float: left;
     width: 100%;
   }
 
-  /* line 229, ../scss/_structure.scss */
+  /* line 232, ../scss/_structure.scss */
   .columns-12 .m-grid-1 {
     float: left;
     width: 8.33%;
   }
-  /* line 233, ../scss/_structure.scss */
+  /* line 236, ../scss/_structure.scss */
   .columns-12 .m-grid-2 {
     float: left;
     width: 16.66%;
   }
-  /* line 237, ../scss/_structure.scss */
+  /* line 240, ../scss/_structure.scss */
   .columns-12 .m-grid-3 {
     float: left;
     width: 25%;
   }
-  /* line 241, ../scss/_structure.scss */
+  /* line 244, ../scss/_structure.scss */
   .columns-12 .m-grid-4 {
     float: left;
     width: 33.33%;
   }
-  /* line 245, ../scss/_structure.scss */
+  /* line 248, ../scss/_structure.scss */
   .columns-12 .m-grid-5 {
     float: left;
     width: 41.66%;
   }
-  /* line 249, ../scss/_structure.scss */
+  /* line 252, ../scss/_structure.scss */
   .columns-12 .m-grid-6 {
     float: left;
     width: 50%;
   }
-  /* line 253, ../scss/_structure.scss */
+  /* line 256, ../scss/_structure.scss */
   .columns-12 .m-grid-7 {
     float: left;
     width: 58.33%;
   }
-  /* line 257, ../scss/_structure.scss */
+  /* line 260, ../scss/_structure.scss */
   .columns-12 .m-grid-8 {
     float: left;
     width: 66.66%;
   }
-  /* line 261, ../scss/_structure.scss */
+  /* line 264, ../scss/_structure.scss */
   .columns-12 .m-grid-9 {
     float: left;
     width: 75%;
   }
-  /* line 265, ../scss/_structure.scss */
+  /* line 268, ../scss/_structure.scss */
   .columns-12 .m-grid-10 {
     float: left;
     width: 83.33%;
   }
-  /* line 269, ../scss/_structure.scss */
+  /* line 272, ../scss/_structure.scss */
   .columns-12 .m-grid-11 {
     float: left;
     width: 91.66%;
   }
-  /* line 273, ../scss/_structure.scss */
+  /* line 276, ../scss/_structure.scss */
   .columns-12 .m-grid-12 {
     float: left;
     width: 100%;
   }
 
-  /* line 278, ../scss/_structure.scss */
+  /* line 281, ../scss/_structure.scss */
   .m-hide {
     display: block;
   }
 }
 @media all and (min-width: 1200px) {
-  /* line 283, ../scss/_structure.scss */
+  /* line 286, ../scss/_structure.scss */
   #wrapper {
     max-width: 1160px;
   }
 
-  /* line 287, ../scss/_structure.scss */
+  /* line 290, ../scss/_structure.scss */
   .columns-6 .l-grid-1 {
     float: left;
     width: 16.66%;
   }
-  /* line 291, ../scss/_structure.scss */
+  /* line 294, ../scss/_structure.scss */
   .columns-6 .l-grid-2 {
     float: left;
     width: 33.33%;
   }
-  /* line 295, ../scss/_structure.scss */
+  /* line 298, ../scss/_structure.scss */
   .columns-6 .l-grid-3 {
     float: left;
     width: 50%;
   }
-  /* line 299, ../scss/_structure.scss */
+  /* line 302, ../scss/_structure.scss */
   .columns-6 .l-grid-4 {
     float: left;
     width: 66.66%;
   }
-  /* line 303, ../scss/_structure.scss */
+  /* line 306, ../scss/_structure.scss */
   .columns-6 .l-grid-5 {
     float: left;
     width: 83.33%;
   }
-  /* line 307, ../scss/_structure.scss */
+  /* line 310, ../scss/_structure.scss */
   .columns-6 .l-grid-6 {
     float: left;
     width: 100%;
   }
 
-  /* line 313, ../scss/_structure.scss */
+  /* line 316, ../scss/_structure.scss */
   .columns-12 .l-grid-1 {
     float: left;
     width: 8.33%;
   }
-  /* line 317, ../scss/_structure.scss */
+  /* line 320, ../scss/_structure.scss */
   .columns-12 .l-grid-2 {
     float: left;
     width: 16.66%;
   }
-  /* line 321, ../scss/_structure.scss */
+  /* line 324, ../scss/_structure.scss */
   .columns-12 .l-grid-3 {
     float: left;
     width: 25%;
   }
-  /* line 325, ../scss/_structure.scss */
+  /* line 328, ../scss/_structure.scss */
   .columns-12 .l-grid-4 {
     float: left;
     width: 33.33%;
   }
-  /* line 329, ../scss/_structure.scss */
+  /* line 332, ../scss/_structure.scss */
   .columns-12 .l-grid-5 {
     float: left;
     width: 41.66%;
   }
-  /* line 333, ../scss/_structure.scss */
+  /* line 336, ../scss/_structure.scss */
   .columns-12 .l-grid-6 {
     float: left;
     width: 50%;
   }
-  /* line 337, ../scss/_structure.scss */
+  /* line 340, ../scss/_structure.scss */
   .columns-12 .l-grid-7 {
     float: left;
     width: 58.33%;
   }
-  /* line 341, ../scss/_structure.scss */
+  /* line 344, ../scss/_structure.scss */
   .columns-12 .l-grid-8 {
     float: left;
     width: 66.66%;
   }
-  /* line 345, ../scss/_structure.scss */
+  /* line 348, ../scss/_structure.scss */
   .columns-12 .l-grid-9 {
     float: left;
     width: 75%;
   }
-  /* line 349, ../scss/_structure.scss */
+  /* line 352, ../scss/_structure.scss */
   .columns-12 .l-grid-10 {
     float: left;
     width: 83.33%;
   }
-  /* line 353, ../scss/_structure.scss */
+  /* line 356, ../scss/_structure.scss */
   .columns-12 .l-grid-11 {
     float: left;
     width: 91.66%;
   }
-  /* line 357, ../scss/_structure.scss */
+  /* line 360, ../scss/_structure.scss */
   .columns-12 .l-grid-12 {
     float: left;
     width: 100%;
   }
 
-  /* line 362, ../scss/_structure.scss */
+  /* line 365, ../scss/_structure.scss */
   .l-hide {
     display: block;
   }
 }
 @media all and (min-width: 1400px) {
-  /* line 367, ../scss/_structure.scss */
+  /* line 370, ../scss/_structure.scss */
   #wrapper {
     max-width: 1360px;
   }
 
-  /* line 371, ../scss/_structure.scss */
+  /* line 374, ../scss/_structure.scss */
   .columns-6 .xl-grid-1 {
     float: left;
     width: 16.66%;
   }
-  /* line 375, ../scss/_structure.scss */
+  /* line 378, ../scss/_structure.scss */
   .columns-6 .xl-grid-2 {
     float: left;
     width: 33.33%;
   }
-  /* line 379, ../scss/_structure.scss */
+  /* line 382, ../scss/_structure.scss */
   .columns-6 .xl-grid-3 {
     float: left;
     width: 50%;
   }
-  /* line 383, ../scss/_structure.scss */
+  /* line 386, ../scss/_structure.scss */
   .columns-6 .xl-grid-4 {
     float: left;
     width: 66.66%;
   }
-  /* line 387, ../scss/_structure.scss */
+  /* line 390, ../scss/_structure.scss */
   .columns-6 .xl-grid-5 {
     float: left;
     width: 83.33%;
   }
-  /* line 391, ../scss/_structure.scss */
+  /* line 394, ../scss/_structure.scss */
   .columns-6 .xl-grid-6 {
     float: left;
     width: 100%;
   }
 
-  /* line 397, ../scss/_structure.scss */
+  /* line 400, ../scss/_structure.scss */
   .columns-12 .xl-grid-1 {
     float: left;
     width: 8.33%;
   }
-  /* line 401, ../scss/_structure.scss */
+  /* line 404, ../scss/_structure.scss */
   .columns-12 .xl-grid-2 {
     float: left;
     width: 16.66%;
   }
-  /* line 405, ../scss/_structure.scss */
+  /* line 408, ../scss/_structure.scss */
   .columns-12 .xl-grid-3 {
     float: left;
     width: 25%;
   }
-  /* line 409, ../scss/_structure.scss */
+  /* line 412, ../scss/_structure.scss */
   .columns-12 .xl-grid-4 {
     float: left;
     width: 33.33%;
   }
-  /* line 413, ../scss/_structure.scss */
+  /* line 416, ../scss/_structure.scss */
   .columns-12 .xl-grid-5 {
     float: left;
     width: 41.66%;
   }
-  /* line 417, ../scss/_structure.scss */
+  /* line 420, ../scss/_structure.scss */
   .columns-12 .xl-grid-6 {
     float: left;
     width: 50%;
   }
-  /* line 421, ../scss/_structure.scss */
+  /* line 424, ../scss/_structure.scss */
   .columns-12 .xl-grid-7 {
     float: left;
     width: 58.33%;
   }
-  /* line 425, ../scss/_structure.scss */
+  /* line 428, ../scss/_structure.scss */
   .columns-12 .xl-grid-8 {
     float: left;
     width: 66.66%;
   }
-  /* line 429, ../scss/_structure.scss */
+  /* line 432, ../scss/_structure.scss */
   .columns-12 .xl-grid-9 {
     float: left;
     width: 75%;
   }
-  /* line 433, ../scss/_structure.scss */
+  /* line 436, ../scss/_structure.scss */
   .columns-12 .xl-grid-10 {
     float: left;
     width: 83.33%;
   }
-  /* line 437, ../scss/_structure.scss */
+  /* line 440, ../scss/_structure.scss */
   .columns-12 .xl-grid-11 {
     float: left;
     width: 91.66%;
   }
-  /* line 441, ../scss/_structure.scss */
+  /* line 444, ../scss/_structure.scss */
   .columns-12 .xl-grid-12 {
     float: left;
     width: 100%;
   }
 
-  /* line 446, ../scss/_structure.scss */
+  /* line 449, ../scss/_structure.scss */
   .xl-hide {
     display: block;
   }
 }
 @media all and (min-width: 1600px) {
-  /* line 451, ../scss/_structure.scss */
+  /* line 454, ../scss/_structure.scss */
   #wrapper {
     max-width: 1560px;
   }
 
-  /* line 455, ../scss/_structure.scss */
+  /* line 458, ../scss/_structure.scss */
   .columns-6 .xxl-grid-1 {
     float: left;
     width: 16.66%;
   }
-  /* line 459, ../scss/_structure.scss */
+  /* line 462, ../scss/_structure.scss */
   .columns-6 .xxl-grid-2 {
     float: left;
     width: 33.33%;
   }
-  /* line 463, ../scss/_structure.scss */
+  /* line 466, ../scss/_structure.scss */
   .columns-6 .xxl-grid-3 {
     float: left;
     width: 50%;
   }
-  /* line 467, ../scss/_structure.scss */
+  /* line 470, ../scss/_structure.scss */
   .columns-6 .xxl-grid-4 {
     float: left;
     width: 66.66%;
   }
-  /* line 471, ../scss/_structure.scss */
+  /* line 474, ../scss/_structure.scss */
   .columns-6 .xxl-grid-5 {
     float: left;
     width: 83.33%;
   }
-  /* line 475, ../scss/_structure.scss */
+  /* line 478, ../scss/_structure.scss */
   .columns-6 .xxl-grid-6 {
     float: left;
     width: 100%;
   }
 
-  /* line 481, ../scss/_structure.scss */
+  /* line 484, ../scss/_structure.scss */
   .columns-12 .xxl-grid-1 {
     float: left;
     width: 8.33%;
   }
-  /* line 485, ../scss/_structure.scss */
+  /* line 488, ../scss/_structure.scss */
   .columns-12 .xxl-grid-2 {
     float: left;
     width: 16.66%;
   }
-  /* line 489, ../scss/_structure.scss */
+  /* line 492, ../scss/_structure.scss */
   .columns-12 .xxl-grid-3 {
     float: left;
     width: 25%;
   }
-  /* line 493, ../scss/_structure.scss */
+  /* line 496, ../scss/_structure.scss */
   .columns-12 .xxl-grid-4 {
     float: left;
     width: 33.33%;
   }
-  /* line 497, ../scss/_structure.scss */
+  /* line 500, ../scss/_structure.scss */
   .columns-12 .xxl-grid-5 {
     float: left;
     width: 41.66%;
   }
-  /* line 501, ../scss/_structure.scss */
+  /* line 504, ../scss/_structure.scss */
   .columns-12 .xxl-grid-6 {
     float: left;
     width: 50%;
   }
-  /* line 505, ../scss/_structure.scss */
+  /* line 508, ../scss/_structure.scss */
   .columns-12 .xxl-grid-7 {
     float: left;
     width: 58.33%;
   }
-  /* line 509, ../scss/_structure.scss */
+  /* line 512, ../scss/_structure.scss */
   .columns-12 .xxl-grid-8 {
     float: left;
     width: 66.66%;
   }
-  /* line 513, ../scss/_structure.scss */
+  /* line 516, ../scss/_structure.scss */
   .columns-12 .xxl-grid-9 {
     float: left;
     width: 75%;
   }
-  /* line 517, ../scss/_structure.scss */
+  /* line 520, ../scss/_structure.scss */
   .columns-12 .xxl-grid-10 {
     float: left;
     width: 83.33%;
   }
-  /* line 521, ../scss/_structure.scss */
+  /* line 524, ../scss/_structure.scss */
   .columns-12 .xxl-grid-11 {
     float: left;
     width: 91.66%;
   }
-  /* line 525, ../scss/_structure.scss */
+  /* line 528, ../scss/_structure.scss */
   .columns-12 .xxl-grid-12 {
     float: left;
     width: 100%;
   }
 
-  /* line 530, ../scss/_structure.scss */
+  /* line 533, ../scss/_structure.scss */
   .xxl-hide {
     display: block;
   }
 }
-/* line 6, ../scss/stylizer.scss */
+/* line 7, ../scss/stylizer.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 9, ../scss/stylizer.scss */
+/* line 10, ../scss/stylizer.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 12, ../scss/stylizer.scss */
+/* line 13, ../scss/stylizer.scss */
 .text-justify {
   text-align: justify;
 }
