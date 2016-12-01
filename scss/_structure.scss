@@ -4,7 +4,7 @@
 body {
 	font-family: "openSans";
 }
-#wrapper {
+.wrapper {
 	max-width: 100%;
 	margin: auto;
 	padding: 0 20px;
@@ -31,7 +31,7 @@ body {
 /*	RESPONSIVE		*/
 /********************/
 @media all and (min-width: 640px) {
-	#wrapper {
+	.wrapper {
 		max-width: 600px;
 	}
 	.columns-6 {
@@ -339,7 +339,7 @@ body {
 	}
 }
 @media all and (min-width: 768px) {
-	#wrapper {
+	.wrapper {
 		max-width: 728px;
 	}
 	.columns-6 {
@@ -647,7 +647,7 @@ body {
 	}
 }
 @media all and (min-width: 992px) {
-	#wrapper {
+	.wrapper {
 		max-width: 952px;
 	}
 	.columns-6 {
@@ -955,7 +955,7 @@ body {
 	}
 }
 @media all and (min-width: 1200px) {
-	#wrapper {
+	.wrapper {
 		max-width: 1160px;
 	}
 	.columns-6 {
@@ -1263,7 +1263,7 @@ body {
 	}
 }
 @media all and (min-width: 1400px) {
-	#wrapper {
+	.wrapper {
 		max-width: 1360px;
 	}
 	.columns-6 {
@@ -1571,7 +1571,7 @@ body {
 	}
 }
 @media all and (min-width: 1600px) {
-	#wrapper {
+	.wrapper {
 		max-width: 1560px;
 	}
 	.columns-6 {
