@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "openSans";
-  src: url("../fonts/opensans-regular.woff2") format("woff2"), url("../fonts/opensans-regular.woff") format("woff"), url("../fonts/opensans-regular.ttf") format("truetype");
-}
 /* line 6, ../scss/_reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -57,7 +53,7 @@ table {
 
 /* line 4, ../scss/_structure.scss */
 body {
-  font-family: "openSans";
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* line 7, ../scss/_structure.scss */
@@ -2449,53 +2445,72 @@ body {
     display: block;
   }
 }
-/* line 7, ../scss/stylizer.scss */
+/* line 6, ../scss/stylizer.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 10, ../scss/stylizer.scss */
+/* line 9, ../scss/stylizer.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 13, ../scss/stylizer.scss */
+/* line 12, ../scss/stylizer.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 17, ../scss/stylizer.scss */
+/* line 16, ../scss/stylizer.scss */
 a,
 a:hover,
 a:focus,
 a:visited {
+  display: inline-block;
+  color: #fff;
   text-decoration: none;
 }
 
-/* line 24, ../scss/stylizer.scss */
+/* line 25, ../scss/stylizer.scss */
 h1 {
   margin-bottom: 30px;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
+  color: #2b2b2b;
 }
 
-/* line 31, ../scss/stylizer.scss */
+/* line 33, ../scss/stylizer.scss */
 p {
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 200;
   line-height: 1.4;
+  color: #2b2b2b;
 }
 
-/* line 38, ../scss/stylizer.scss */
+/* line 41, ../scss/stylizer.scss */
 .title-first {
   padding-top: 60px;
 }
 
-/* line 42, ../scss/stylizer.scss */
-header {
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+/* line 45, ../scss/stylizer.scss */
+.shadow-light {
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* line 51, ../scss/stylizer.scss */
+.blue-light {
+  background: #3498DB;
+}
+
+/* line 54, ../scss/stylizer.scss */
+.blue-medium {
+  background: #2980B9;
+}
+
+/* line 58, ../scss/stylizer.scss */
+.button {
+  padding: 8px 12px;
 }
