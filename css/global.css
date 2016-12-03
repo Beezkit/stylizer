@@ -1,0 +1,26 @@
+/* line 1, ../scss/global.scss */
+header {
+  height: 70px;
+  line-height: 70px;
+}
+
+/* line 5, ../scss/global.scss */
+nav ul > li {
+  display: inline-block;
+}
+
+/* line 8, ../scss/global.scss */
+nav ul > li > a {
+  padding: 0 10px;
+}
+
+/* line 11, ../scss/global.scss */
+nav ul > li.current > a {
+  background: #3498DB;
+}
+
+/* line 14, ../scss/global.scss */
+#logo {
+  float: left;
+  font-size: 36px;
+}
