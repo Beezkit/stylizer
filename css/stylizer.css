@@ -2444,9 +2444,9 @@ body {
     display: block;
   }
 }
-/*****************/
-/*     GLOBAL    */
-/*****************/
+/****************/
+/*     TEXTE    */
+/****************/
 /* line 10, ../scss/stylizer.scss */
 .text-center {
   text-align: center;
@@ -2462,7 +2462,12 @@ body {
   text-align: justify;
 }
 
-/* line 20, ../scss/stylizer.scss */
+/* line 19, ../scss/stylizer.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 23, ../scss/stylizer.scss */
 a,
 a:hover,
 a:focus,
@@ -2472,7 +2477,7 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 29, ../scss/stylizer.scss */
+/* line 32, ../scss/stylizer.scss */
 h1 {
   margin-bottom: 30px;
   font-size: 36px;
@@ -2481,7 +2486,7 @@ h1 {
   color: #2b2b2b;
 }
 
-/* line 37, ../scss/stylizer.scss */
+/* line 40, ../scss/stylizer.scss */
 p {
   margin-bottom: 10px;
   font-size: 16px;
@@ -2490,7 +2495,7 @@ p {
   color: #2b2b2b;
 }
 
-/* line 45, ../scss/stylizer.scss */
+/* line 48, ../scss/stylizer.scss */
 .title-first {
   padding-top: 60px;
 }
@@ -2498,7 +2503,7 @@ p {
 /*********************/
 /*     TRANSITION    */
 /*********************/
-/* line 52, ../scss/stylizer.scss */
+/* line 55, ../scss/stylizer.scss */
 .ease {
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
@@ -2507,7 +2512,7 @@ p {
   transition: all ease 0.3s;
 }
 
-/* line 55, ../scss/stylizer.scss */
+/* line 58, ../scss/stylizer.scss */
 .linear {
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -2516,7 +2521,7 @@ p {
   transition: all linear 0.3s;
 }
 
-/* line 58, ../scss/stylizer.scss */
+/* line 61, ../scss/stylizer.scss */
 .ease-in {
   -webkit-transition: all ease-in 0.3s;
   -moz-transition: all ease-in 0.3s;
@@ -2525,7 +2530,7 @@ p {
   transition: all ease-in 0.3s;
 }
 
-/* line 61, ../scss/stylizer.scss */
+/* line 64, ../scss/stylizer.scss */
 .ease-out {
   -webkit-transition: all ease-out 0.3s;
   -moz-transition: all ease-out 0.3s;
@@ -2534,7 +2539,7 @@ p {
   transition: all ease-out 0.3s;
 }
 
-/* line 64, ../scss/stylizer.scss */
+/* line 67, ../scss/stylizer.scss */
 .ease-in-out {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
@@ -2546,7 +2551,7 @@ p {
 /*****************/
 /*     SHADOW    */
 /*****************/
-/* line 71, ../scss/stylizer.scss */
+/* line 74, ../scss/stylizer.scss */
 .shadow-light {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
@@ -2556,17 +2561,17 @@ p {
 /*******************/
 /*     COULEURS    */
 /*******************/
-/* line 80, ../scss/stylizer.scss */
+/* line 83, ../scss/stylizer.scss */
 .blue-light {
   background: #3498DB;
 }
 
-/* line 83, ../scss/stylizer.scss */
+/* line 86, ../scss/stylizer.scss */
 .blue-light-hover:hover {
   background: #3ca6ec;
 }
 
-/* line 86, ../scss/stylizer.scss */
+/* line 89, ../scss/stylizer.scss */
 .blue-medium {
   background: #2980B9;
 }
@@ -2574,13 +2579,18 @@ p {
 /******************/
 /*      BOUTON    */
 /******************/
-/* line 93, ../scss/stylizer.scss */
+/* line 96, ../scss/stylizer.scss */
 .btn {
   padding: 8px 12px;
   transform: translateY(0px);
 }
 
-/* line 97, ../scss/stylizer.scss */
+/* line 100, ../scss/stylizer.scss */
+.btn-large {
+  padding: 14px 20px;
+}
+
+/* line 103, ../scss/stylizer.scss */
 .btn:hover {
   -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);

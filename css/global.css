@@ -24,3 +24,9 @@ nav ul > li.current > a {
   float: left;
   font-size: 36px;
 }
+
+/* line 18, ../scss/global.scss */
+.desc,
+.download {
+  margin-bottom: 30px;
+}

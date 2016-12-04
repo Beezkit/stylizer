@@ -4,9 +4,9 @@
 @import '_transition';
 @import '_structure';
 
-/*****************/
-/*     GLOBAL    */
-/*****************/
+/****************/
+/*     TEXTE    */
+/****************/
 .text-center {
     text-align: center;
 }
@@ -15,6 +15,9 @@
 }
 .text-justify {
     text-align: justify;
+}
+.italic {
+    font-style: italic;
 }
 
 a,
@@ -93,6 +96,9 @@ p {
 .btn {
 	padding: 8px 12px;
     transform: translateY(0px);
+}
+.btn-large {
+    padding: 14px 20px;
 }
 .btn:hover {
     -webkit-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.4);
