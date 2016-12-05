@@ -3,29 +3,38 @@ header {
   height: auto;
   line-height: 60px;
 }
-
-/* line 5, ../scss/global.scss */
-nav ul > li {
-  display: inline-block;
-}
-
-/* line 8, ../scss/global.scss */
-nav ul > li > a {
-  padding: 0 10px;
-}
-
-/* line 11, ../scss/global.scss */
-nav ul > li.current > a {
-  background: #3498DB;
-}
-
-/* line 14, ../scss/global.scss */
-#logo {
+/* line 4, ../scss/global.scss */
+header #logo {
   float: left;
   font-size: 36px;
+  text-align: center;
+}
+@media all and (min-width: 768px) {
+  /* line 10, ../scss/global.scss */
+  header #logo {
+    text-align: left;
+  }
+}
+/* line 14, ../scss/global.scss */
+header nav ul > li {
+  display: inline-block;
+}
+/* line 16, ../scss/global.scss */
+header nav ul > li a {
+  padding: 0 10px;
+}
+/* line 20, ../scss/global.scss */
+header nav ul > li.current > a {
+  background: #3498DB;
+}
+/* line 23, ../scss/global.scss */
+header .btn-menu {
+  position: absolute;
+  top: 7px;
+  right: 15px;
 }
 
-/* line 18, ../scss/global.scss */
+/* line 29, ../scss/global.scss */
 .desc,
 .download {
   margin-bottom: 30px;

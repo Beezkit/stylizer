@@ -2474,37 +2474,37 @@ body {
 /****************/
 /*     TEXTE    */
 /****************/
-/* line 10, ../scss/stylizer.scss */
+/* line 9, ../scss/stylizer.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 13, ../scss/stylizer.scss */
+/* line 12, ../scss/stylizer.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 16, ../scss/stylizer.scss */
+/* line 15, ../scss/stylizer.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 19, ../scss/stylizer.scss */
+/* line 18, ../scss/stylizer.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 23, ../scss/stylizer.scss */
+/* line 22, ../scss/stylizer.scss */
 .right {
   float: right;
 }
 
-/* line 26, ../scss/stylizer.scss */
+/* line 25, ../scss/stylizer.scss */
 .left {
   float: left;
 }
 
-/* line 30, ../scss/stylizer.scss */
+/* line 29, ../scss/stylizer.scss */
 a,
 a:hover,
 a:focus,
@@ -2514,7 +2514,7 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 39, ../scss/stylizer.scss */
+/* line 38, ../scss/stylizer.scss */
 h1 {
   margin-bottom: 30px;
   font-size: 36px;
@@ -2523,7 +2523,7 @@ h1 {
   color: #2b2b2b;
 }
 
-/* line 47, ../scss/stylizer.scss */
+/* line 46, ../scss/stylizer.scss */
 p {
   margin-bottom: 10px;
   font-size: 16px;
@@ -2532,7 +2532,7 @@ p {
   color: #2b2b2b;
 }
 
-/* line 55, ../scss/stylizer.scss */
+/* line 54, ../scss/stylizer.scss */
 .title-first {
   padding-top: 60px;
 }
@@ -2540,7 +2540,7 @@ p {
 /*********************/
 /*     TRANSITION    */
 /*********************/
-/* line 62, ../scss/stylizer.scss */
+/* line 61, ../scss/stylizer.scss */
 .ease {
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
@@ -2549,7 +2549,7 @@ p {
   transition: all ease 0.3s;
 }
 
-/* line 65, ../scss/stylizer.scss */
+/* line 64, ../scss/stylizer.scss */
 .linear {
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -2558,7 +2558,7 @@ p {
   transition: all linear 0.3s;
 }
 
-/* line 68, ../scss/stylizer.scss */
+/* line 67, ../scss/stylizer.scss */
 .ease-in {
   -webkit-transition: all ease-in 0.3s;
   -moz-transition: all ease-in 0.3s;
@@ -2567,7 +2567,7 @@ p {
   transition: all ease-in 0.3s;
 }
 
-/* line 71, ../scss/stylizer.scss */
+/* line 70, ../scss/stylizer.scss */
 .ease-out {
   -webkit-transition: all ease-out 0.3s;
   -moz-transition: all ease-out 0.3s;
@@ -2576,7 +2576,7 @@ p {
   transition: all ease-out 0.3s;
 }
 
-/* line 74, ../scss/stylizer.scss */
+/* line 73, ../scss/stylizer.scss */
 .ease-in-out {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
@@ -2588,7 +2588,7 @@ p {
 /*****************/
 /*     SHADOW    */
 /*****************/
-/* line 81, ../scss/stylizer.scss */
+/* line 80, ../scss/stylizer.scss */
 .shadow-light {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
@@ -2598,39 +2598,68 @@ p {
 /*******************/
 /*     COULEURS    */
 /*******************/
-/* line 90, ../scss/stylizer.scss */
+/* line 89, ../scss/stylizer.scss */
 .blue-light {
   background: #3498DB;
 }
 
-/* line 93, ../scss/stylizer.scss */
+/* line 92, ../scss/stylizer.scss */
 .blue-light-hover:hover {
   background: #3ca6ec;
 }
 
-/* line 96, ../scss/stylizer.scss */
+/* line 95, ../scss/stylizer.scss */
 .blue-medium {
   background: #2980B9;
+}
+
+/*************************/
+/*      BORDER RADIUS    */
+/*************************/
+/* line 102, ../scss/stylizer.scss */
+.border-radius-100 {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
 }
 
 /******************/
 /*      BOUTON    */
 /******************/
-/* line 103, ../scss/stylizer.scss */
+/* line 109, ../scss/stylizer.scss */
 .btn {
   padding: 8px 12px;
   transform: translateY(0px);
 }
 
-/* line 107, ../scss/stylizer.scss */
+/* line 113, ../scss/stylizer.scss */
 .btn-large {
   padding: 14px 20px;
 }
 
-/* line 110, ../scss/stylizer.scss */
-.btn:hover {
+/* line 116, ../scss/stylizer.scss */
+.btn:hover,
+.btn:focus {
   -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);
   transform: translateY(-3px);
+}
+
+/* line 123, ../scss/stylizer.scss */
+.btn-menu {
+  width: 45px;
+  height: 45px;
+  padding: 9px 0;
+  background: #E91E63;
+}
+/* line 128, ../scss/stylizer.scss */
+.btn-menu span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 5px auto;
+  background: #fff;
 }

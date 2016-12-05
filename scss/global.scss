@@ -1,19 +1,30 @@
 header {
     height: auto;
     line-height: 60px;
-}
-nav ul > li {
-    display: inline-block;
-}
-nav ul > li > a {
-    padding: 0 10px;
-}
-nav ul > li.current > a {
-    background: #3498DB;
-}
-#logo {
-    float: left;
-    font-size: 36px;
+    #logo {
+	    float: left;
+	    font-size: 36px;
+	    text-align: center;
+	}
+	@media all and (min-width: 768px) {
+		#logo {
+			text-align: left;
+		}
+	}
+    nav ul > li {
+    	display: inline-block;
+    	a {
+    		padding: 0 10px;
+    	}
+    }
+    nav ul > li.current > a {
+		background: #3498DB;
+	}
+	.btn-menu {
+		position: absolute;
+		top: 7px;
+		right: 15px;
+	}
 }
 .desc,
 .download {
