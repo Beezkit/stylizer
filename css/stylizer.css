@@ -2515,15 +2515,44 @@ a:visited {
 }
 
 /* line 38, ../scss/stylizer.scss */
-h1 {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
-  font-size: 36px;
   font-weight: 600;
   text-align: center;
   color: #2b2b2b;
 }
 
-/* line 46, ../scss/stylizer.scss */
+/* line 44, ../scss/stylizer.scss */
+h1 {
+  font-size: 36px;
+}
+
+/* line 47, ../scss/stylizer.scss */
+h2 {
+  font-size: 30px;
+}
+
+/* line 50, ../scss/stylizer.scss */
+h3 {
+  font-size: 26px;
+}
+
+/* line 53, ../scss/stylizer.scss */
+h4 {
+  font-size: 20px;
+}
+
+/* line 56, ../scss/stylizer.scss */
+h5 {
+  font-size: 16px;
+}
+
+/* line 59, ../scss/stylizer.scss */
+h6 {
+  font-size: 12px;
+}
+
+/* line 63, ../scss/stylizer.scss */
 p {
   margin-bottom: 10px;
   font-size: 16px;
@@ -2532,15 +2561,55 @@ p {
   color: #2b2b2b;
 }
 
-/* line 54, ../scss/stylizer.scss */
+/* line 71, ../scss/stylizer.scss */
 .title-first {
   padding-top: 60px;
+}
+
+/* line 74, ../scss/stylizer.scss */
+.title-second {
+  padding-top: 40px;
+}
+
+/* line 78, ../scss/stylizer.scss */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 81, ../scss/stylizer.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 84, ../scss/stylizer.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 87, ../scss/stylizer.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 90, ../scss/stylizer.scss */
+em {
+  font-style: italic;
+}
+
+/* line 93, ../scss/stylizer.scss */
+str {
+  text-decoration: line-through;
+}
+
+/* line 96, ../scss/stylizer.scss */
+u {
+  text-decoration: underline;
 }
 
 /*********************/
 /*     TRANSITION    */
 /*********************/
-/* line 61, ../scss/stylizer.scss */
+/* line 103, ../scss/stylizer.scss */
 .ease {
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
@@ -2549,7 +2618,7 @@ p {
   transition: all ease 0.3s;
 }
 
-/* line 64, ../scss/stylizer.scss */
+/* line 106, ../scss/stylizer.scss */
 .linear {
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -2558,7 +2627,7 @@ p {
   transition: all linear 0.3s;
 }
 
-/* line 67, ../scss/stylizer.scss */
+/* line 109, ../scss/stylizer.scss */
 .ease-in {
   -webkit-transition: all ease-in 0.3s;
   -moz-transition: all ease-in 0.3s;
@@ -2567,7 +2636,7 @@ p {
   transition: all ease-in 0.3s;
 }
 
-/* line 70, ../scss/stylizer.scss */
+/* line 112, ../scss/stylizer.scss */
 .ease-out {
   -webkit-transition: all ease-out 0.3s;
   -moz-transition: all ease-out 0.3s;
@@ -2576,7 +2645,7 @@ p {
   transition: all ease-out 0.3s;
 }
 
-/* line 73, ../scss/stylizer.scss */
+/* line 115, ../scss/stylizer.scss */
 .ease-in-out {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
@@ -2588,7 +2657,7 @@ p {
 /*****************/
 /*     SHADOW    */
 /*****************/
-/* line 80, ../scss/stylizer.scss */
+/* line 122, ../scss/stylizer.scss */
 .shadow-light {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
@@ -2598,17 +2667,17 @@ p {
 /*******************/
 /*     COULEURS    */
 /*******************/
-/* line 89, ../scss/stylizer.scss */
+/* line 131, ../scss/stylizer.scss */
 .blue-light {
   background: #3498DB;
 }
 
-/* line 92, ../scss/stylizer.scss */
+/* line 134, ../scss/stylizer.scss */
 .blue-light-hover:hover {
   background: #3ca6ec;
 }
 
-/* line 95, ../scss/stylizer.scss */
+/* line 137, ../scss/stylizer.scss */
 .blue-medium {
   background: #2980B9;
 }
@@ -2616,7 +2685,7 @@ p {
 /*************************/
 /*      BORDER RADIUS    */
 /*************************/
-/* line 102, ../scss/stylizer.scss */
+/* line 144, ../scss/stylizer.scss */
 .border-radius-100 {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -2628,18 +2697,18 @@ p {
 /******************/
 /*      BOUTON    */
 /******************/
-/* line 109, ../scss/stylizer.scss */
+/* line 151, ../scss/stylizer.scss */
 .btn {
   padding: 8px 12px;
   transform: translateY(0px);
 }
 
-/* line 113, ../scss/stylizer.scss */
+/* line 155, ../scss/stylizer.scss */
 .btn-large {
   padding: 14px 20px;
 }
 
-/* line 116, ../scss/stylizer.scss */
+/* line 158, ../scss/stylizer.scss */
 .btn:hover,
 .btn:focus {
   -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);
@@ -2648,14 +2717,14 @@ p {
   transform: translateY(-3px);
 }
 
-/* line 123, ../scss/stylizer.scss */
+/* line 165, ../scss/stylizer.scss */
 .btn-menu {
   width: 45px;
   height: 45px;
   padding: 9px 0;
   background: #E91E63;
 }
-/* line 128, ../scss/stylizer.scss */
+/* line 170, ../scss/stylizer.scss */
 .btn-menu span {
   display: block;
   width: 30px;

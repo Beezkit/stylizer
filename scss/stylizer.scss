@@ -35,12 +35,29 @@ a:visited {
 	text-decoration: none;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 30px;
-	font-size: 36px;
 	font-weight: 600;
 	text-align: center;
 	color: $text;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 26px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 12px;
 }
 
 p {
@@ -53,6 +70,31 @@ p {
 
 .title-first {
 	padding-top: 60px;
+}
+.title-second {
+	padding-top: 40px;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+str {
+	text-decoration: line-through;
+}
+u {
+	text-decoration: underline;
 }
 
 /*********************/
