@@ -34,12 +34,16 @@ header .btn-menu {
   right: 15px;
 }
 
-/* line 30, ../scss/global.scss */
+/* line 31, ../scss/global.scss */
+main .download .btn {
+  color: #3498DB;
+}
+/* line 35, ../scss/global.scss */
 main .title-second {
   margin-bottom: 20px;
 }
 
-/* line 34, ../scss/global.scss */
+/* line 39, ../scss/global.scss */
 .desc,
 .download {
   margin-bottom: 30px;
