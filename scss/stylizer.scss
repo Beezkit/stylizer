@@ -229,9 +229,27 @@ u {
 /*******************/
 /*      ARTICLE    */
 /*******************/
-article {
-	padding: 20px;
+.article {
+	margin: 10px 0 20px;
+	padding: 0 0 20px 0;
 	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
 	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+	.thumbnail {
+		position: relative;
+		.title-thumbnail {
+			position: absolute;
+			left: 10px;
+			bottom: 10px;
+			color: $white;
+			font-size: 22px;
+		}
+	}
+	.content-article {
+		padding: 20px;
+		.article-link {
+			border-top: $border-grey;
+			padding-top: 10px;
+		}
+	}
 }

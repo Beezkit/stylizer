@@ -35,11 +35,11 @@ header .btn-menu {
 }
 
 /* line 31, ../scss/global.scss */
-main .download .btn {
+.main .download .btn {
   color: #3498DB;
 }
 /* line 35, ../scss/global.scss */
-main .title-second {
+.main .title-second {
   margin-bottom: 20px;
 }
 
