@@ -2486,44 +2486,49 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 20, ../scss/stylizer.scss */
+/* line 19, ../scss/stylizer.scss */
+a {
+  color: #2b2b2b;
+}
+
+/* line 22, ../scss/stylizer.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-weight: 600;
   color: #2b2b2b;
 }
 
-/* line 25, ../scss/stylizer.scss */
+/* line 27, ../scss/stylizer.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 28, ../scss/stylizer.scss */
+/* line 30, ../scss/stylizer.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 31, ../scss/stylizer.scss */
+/* line 33, ../scss/stylizer.scss */
 h3 {
   font-size: 26px;
 }
 
-/* line 34, ../scss/stylizer.scss */
+/* line 36, ../scss/stylizer.scss */
 h4 {
   font-size: 20px;
 }
 
-/* line 37, ../scss/stylizer.scss */
+/* line 39, ../scss/stylizer.scss */
 h5 {
   font-size: 16px;
 }
 
-/* line 40, ../scss/stylizer.scss */
+/* line 42, ../scss/stylizer.scss */
 h6 {
   font-size: 12px;
 }
 
-/* line 44, ../scss/stylizer.scss */
+/* line 46, ../scss/stylizer.scss */
 p {
   margin-bottom: 10px;
   font-size: 16px;
@@ -2535,37 +2540,37 @@ p {
 /****************/
 /*     TEXTE    */
 /****************/
-/* line 55, ../scss/stylizer.scss */
+/* line 57, ../scss/stylizer.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 58, ../scss/stylizer.scss */
+/* line 60, ../scss/stylizer.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 61, ../scss/stylizer.scss */
+/* line 63, ../scss/stylizer.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 64, ../scss/stylizer.scss */
+/* line 66, ../scss/stylizer.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 67, ../scss/stylizer.scss */
+/* line 69, ../scss/stylizer.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 71, ../scss/stylizer.scss */
+/* line 73, ../scss/stylizer.scss */
 .right {
   float: right;
 }
 
-/* line 74, ../scss/stylizer.scss */
+/* line 76, ../scss/stylizer.scss */
 .left {
   float: left;
 }
@@ -2573,47 +2578,47 @@ p {
 /****************/
 /*     TITRE    */
 /****************/
-/* line 81, ../scss/stylizer.scss */
+/* line 83, ../scss/stylizer.scss */
 .title-first {
   padding-top: 60px;
 }
 
-/* line 84, ../scss/stylizer.scss */
+/* line 86, ../scss/stylizer.scss */
 .title-second {
   padding-top: 40px;
 }
 
-/* line 88, ../scss/stylizer.scss */
+/* line 90, ../scss/stylizer.scss */
 .lowercase {
   text-transform: lowercase;
 }
 
-/* line 91, ../scss/stylizer.scss */
+/* line 93, ../scss/stylizer.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 94, ../scss/stylizer.scss */
+/* line 96, ../scss/stylizer.scss */
 .capitalize {
   text-transform: capitalize;
 }
 
-/* line 97, ../scss/stylizer.scss */
+/* line 99, ../scss/stylizer.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 100, ../scss/stylizer.scss */
+/* line 102, ../scss/stylizer.scss */
 em {
   font-style: italic;
 }
 
-/* line 103, ../scss/stylizer.scss */
+/* line 105, ../scss/stylizer.scss */
 str {
   text-decoration: line-through;
 }
 
-/* line 106, ../scss/stylizer.scss */
+/* line 108, ../scss/stylizer.scss */
 u {
   text-decoration: underline;
 }
@@ -2621,7 +2626,7 @@ u {
 /*********************/
 /*     TRANSITION    */
 /*********************/
-/* line 113, ../scss/stylizer.scss */
+/* line 115, ../scss/stylizer.scss */
 .ease {
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
@@ -2630,7 +2635,7 @@ u {
   transition: all ease 0.3s;
 }
 
-/* line 116, ../scss/stylizer.scss */
+/* line 118, ../scss/stylizer.scss */
 .linear {
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -2639,7 +2644,7 @@ u {
   transition: all linear 0.3s;
 }
 
-/* line 119, ../scss/stylizer.scss */
+/* line 121, ../scss/stylizer.scss */
 .ease-in {
   -webkit-transition: all ease-in 0.3s;
   -moz-transition: all ease-in 0.3s;
@@ -2648,7 +2653,7 @@ u {
   transition: all ease-in 0.3s;
 }
 
-/* line 122, ../scss/stylizer.scss */
+/* line 124, ../scss/stylizer.scss */
 .ease-out {
   -webkit-transition: all ease-out 0.3s;
   -moz-transition: all ease-out 0.3s;
@@ -2657,7 +2662,7 @@ u {
   transition: all ease-out 0.3s;
 }
 
-/* line 125, ../scss/stylizer.scss */
+/* line 127, ../scss/stylizer.scss */
 .ease-in-out {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
@@ -2669,21 +2674,21 @@ u {
 /*****************/
 /*     SHADOW    */
 /*****************/
-/* line 132, ../scss/stylizer.scss */
+/* line 134, ../scss/stylizer.scss */
 .shadow-light {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* line 137, ../scss/stylizer.scss */
+/* line 139, ../scss/stylizer.scss */
 .shadow-article {
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* line 142, ../scss/stylizer.scss */
+/* line 144, ../scss/stylizer.scss */
 .btn.shadow-light:hover, .btn.shadow-light:focus {
   -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.4);
@@ -2693,17 +2698,17 @@ u {
 /*******************/
 /*     COULEURS    */
 /*******************/
-/* line 151, ../scss/stylizer.scss */
+/* line 153, ../scss/stylizer.scss */
 .blue-light {
   background: #3498DB;
 }
 
-/* line 154, ../scss/stylizer.scss */
+/* line 156, ../scss/stylizer.scss */
 .blue-light-hover:hover {
   background: #3ca6ec;
 }
 
-/* line 157, ../scss/stylizer.scss */
+/* line 159, ../scss/stylizer.scss */
 .blue-medium {
   background: #2980B9;
 }
@@ -2711,7 +2716,7 @@ u {
 /*************************/
 /*      BORDER RADIUS    */
 /*************************/
-/* line 164, ../scss/stylizer.scss */
+/* line 166, ../scss/stylizer.scss */
 .border-radius-100 {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -2723,12 +2728,12 @@ u {
 /******************/
 /*      BORDER    */
 /******************/
-/* line 171, ../scss/stylizer.scss */
+/* line 173, ../scss/stylizer.scss */
 .border-blue {
   border: 1px solid #3498DB;
 }
 
-/* line 174, ../scss/stylizer.scss */
+/* line 176, ../scss/stylizer.scss */
 .border-blue-explode {
   border: 1px solid transparent;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
@@ -2739,7 +2744,7 @@ u {
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-/* line 183, ../scss/stylizer.scss */
+/* line 185, ../scss/stylizer.scss */
 .border-blue-explode:hover,
 .border-blue-explode:focus {
   border: 1px solid;
@@ -2752,54 +2757,54 @@ u {
 /******************/
 /*      BOUTON    */
 /******************/
-/* line 195, ../scss/stylizer.scss */
+/* line 197, ../scss/stylizer.scss */
 .btn {
   padding: 8px 12px;
 }
 
-/* line 198, ../scss/stylizer.scss */
+/* line 200, ../scss/stylizer.scss */
 .btn-large {
   padding: 14px 20px;
 }
 
-/* line 201, ../scss/stylizer.scss */
+/* line 203, ../scss/stylizer.scss */
 .btn-up, .btn-down {
   transform: translateY(0px);
 }
 
-/* line 204, ../scss/stylizer.scss */
+/* line 206, ../scss/stylizer.scss */
 .btn-left, .btn-right {
   transform: translateX(0px);
 }
 
-/* line 207, ../scss/stylizer.scss */
+/* line 209, ../scss/stylizer.scss */
 .btn-up:hover, .btn-up:focus {
   transform: translateY(-3px);
 }
 
-/* line 210, ../scss/stylizer.scss */
+/* line 212, ../scss/stylizer.scss */
 .btn-down:hover, .btn-down:focus {
   transform: translateY(3px);
 }
 
-/* line 213, ../scss/stylizer.scss */
+/* line 215, ../scss/stylizer.scss */
 .btn-left:hover, .btn-left:focus {
   transform: translateX(-3px);
 }
 
-/* line 216, ../scss/stylizer.scss */
+/* line 218, ../scss/stylizer.scss */
 .btn-right:hover, .btn-right:focus {
   transform: translateX(3px);
 }
 
-/* line 219, ../scss/stylizer.scss */
+/* line 221, ../scss/stylizer.scss */
 .btn-menu {
   width: 45px;
   height: 45px;
   padding: 9px 0;
   background: #E91E63;
 }
-/* line 224, ../scss/stylizer.scss */
+/* line 226, ../scss/stylizer.scss */
 .btn-menu span {
   display: block;
   width: 30px;
@@ -2811,18 +2816,18 @@ u {
 /*******************/
 /*      ARTICLE    */
 /*******************/
-/* line 236, ../scss/stylizer.scss */
+/* line 238, ../scss/stylizer.scss */
 .article-thumbnail, .article {
   margin: 10px 0 20px;
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
 }
-/* line 241, ../scss/stylizer.scss */
+/* line 243, ../scss/stylizer.scss */
 .article-thumbnail .thumbnail, .article .thumbnail {
   position: relative;
 }
-/* line 243, ../scss/stylizer.scss */
+/* line 245, ../scss/stylizer.scss */
 .article-thumbnail .thumbnail .title-thumbnail, .article .thumbnail .title-thumbnail {
   position: absolute;
   left: 10px;
@@ -2830,17 +2835,17 @@ u {
   color: #fff;
   font-size: 22px;
 }
-/* line 251, ../scss/stylizer.scss */
+/* line 253, ../scss/stylizer.scss */
 .article-thumbnail .content-article, .article .content-article {
   padding: 20px;
 }
-/* line 254, ../scss/stylizer.scss */
+/* line 256, ../scss/stylizer.scss */
 .article-thumbnail .article-link, .article .article-link {
   border-top: 1px solid #eaeaea;
   padding: 20px;
 }
 
-/* line 260, ../scss/stylizer.scss */
+/* line 262, ../scss/stylizer.scss */
 .card-text {
   margin: 10px 0 20px;
   padding: 20px;
