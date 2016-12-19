@@ -13,7 +13,6 @@ a,
 a:hover,
 a:focus,
 a:visited {
-	display: inline-block;
 	text-decoration: none;
 }
 a {
@@ -159,6 +158,9 @@ u {
 .blue-medium {
 	background: $blue-medium;
 }
+.green {
+	background: $green;
+}
 
 /*************************/
 /*      BORDER RADIUS    */
@@ -222,7 +224,7 @@ u {
 	width: 45px;
 	height: 45px;
 	padding: 9px 0;
-	background: $red-menu;
+	z-index: 1;
 	span {
 		display: block;
 		width: 30px;
@@ -230,6 +232,22 @@ u {
 		margin: 5px auto;
 		background: $white;
 	}
+}
+
+/********************/
+/*      NAV    		*/
+/********************/
+.nav-mobile.nav-right {
+	position: absolute;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	transform: translateX(100%);
+	background: $white;
+	z-index: 1;
+}
+.nav-mobile.nav-right.active {
+	transform: translateX(0px);
 }
 
 /*******************/
