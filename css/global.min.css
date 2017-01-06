@@ -1,0 +1,2 @@
+header{height:auto;line-height:60px}header #logo{float:left;font-size:36px;text-align:center}@media all and (min-width: 768px){header #logo{text-align:left}}header nav ul>li{display:inline-block}header nav ul>li a{padding:0 10px}header nav ul>li.current>a{background:#3498DB}header .btn-menu{position:absolute;top:7px;right:15px}.main .download .btn{color:#3498DB}.main .title-second{margin-bottom:20px}.desc,.download{margin-bottom:30px}
+/*# sourceMappingURL=global.min.css.map */
