@@ -6,7 +6,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
     jshint: {
-      all: 'js/stylizer.js',
+      all: ['js/plugin/*.js', 'js/stylizer.js'],
     },
 
     uglify: {
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'js/stylizer.min.js': 'js/stylizer.js'
+          'js/stylizer.min.js': ['js/plugin/*.js', 'js/stylizer.js'],
         }
       }
     },
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 
     watch: {
       js: {
-        files: 'js/global.js',
+        files: ['js/stylizer.js', 'js/plugin/*.js', '!js/jquery-3.1.1.min.js'],
         tasks: ['jshint', 'uglify'],
         options: {
           spawn: false,
